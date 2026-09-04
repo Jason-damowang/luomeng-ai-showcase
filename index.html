@@ -7,26 +7,36 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:linear-gradient(160deg,#05080f,#0a1424);min-height:100vh;color:#e9f1ff;display:flex;align-items:center;justify-content:center;padding:24px}
-.card{max-width:760px;width:100%;background:linear-gradient(180deg,rgba(16,25,44,.9),rgba(9,14,25,.96));border:1px solid rgba(138,176,255,.18);border-radius:22px;padding:42px 40px;box-shadow:0 30px 80px -30px rgba(0,0,0,.8)}
-h1{font-size:26px;font-weight:900;margin-bottom:6px}
-.sub{color:#8295ad;font-size:13px;letter-spacing:.08em;margin-bottom:26px}
-a.ver{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1px solid rgba(138,176,255,.2);border-radius:16px;padding:20px 22px;margin-bottom:14px;text-decoration:none;color:#e9f1ff;transition:.25s;background:rgba(255,255,255,.02)}
+.card{max-width:780px;width:100%;background:linear-gradient(180deg,rgba(16,25,44,.9),rgba(9,14,25,.96));border:1px solid rgba(138,176,255,.18);border-radius:22px;padding:44px 40px 38px;box-shadow:0 30px 80px -30px rgba(0,0,0,.8);text-align:center}
+.brand{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:16px}
+.brand img{height:64px;width:auto}
+.brand .t{text-align:left}
+.brand h1{font-size:24px;font-weight:900;letter-spacing:.04em}
+.brand .en{color:#8295ad;font-size:11px;letter-spacing:.1em;margin-top:3px}
+.sub{color:#8295ad;font-size:13px;letter-spacing:.08em;margin-bottom:28px}
+a.ver{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1px solid rgba(138,176,255,.2);border-radius:16px;padding:20px 22px;margin-bottom:14px;text-decoration:none;color:#e9f1ff;transition:.25s;background:rgba(255,255,255,.02);text-align:left}
 a.ver:hover{border-color:rgba(65,223,194,.5);transform:translateY(-2px)}
 a.ver .l b{font-size:17px;display:block;margin-bottom:3px}
 a.ver .l span{font-size:12.5px;color:#8295ad}
 a.ver .t{flex:0 0 auto;color:#9ff0dd;font-size:13px;border:1px solid rgba(65,223,194,.4);background:rgba(65,223,194,.08);border-radius:999px;padding:6px 14px}
-.note{font-size:11.5px;color:#6e83a3;margin-top:16px;text-align:center}
+.note{font-size:11.5px;color:#6e83a3;margin-top:18px}
 </style>
 </head>
 <body>
 <div class="card">
-  <h1>上海络蒙电子科技有限公司</h1>
+  <div class="brand">
+    <img src="assets/logo-icon.png" alt="络蒙电子科技 Logo">
+    <div class="t">
+      <h1>络蒙电子科技有限公司</h1>
+      <div class="en">LUOMENG ELECTRONIC TECHNOLOGY CO., LTD</div>
+    </div>
+  </div>
   <div class="sub">腾讯云首批 WorkBuddy 合作伙伴 · 企业数字分身全景方案</div>
-  <a class="ver" href="上海络蒙科技-AI落地展示页.html">
+  <a class="ver" href="dark.html">
     <span class="l"><b>深色版 · 展示页</b><span>WorkBuddy 企业数字分身全景方案（推荐对外演示）</span></span>
     <span class="t">打开 →</span>
   </a>
-  <a class="ver" href="上海络蒙科技-AI落地展示页-浅色商务版.html">
+  <a class="ver" href="light.html">
     <span class="l"><b>浅色版 · 展示页</b><span>浅色商务风格版本</span></span>
     <span class="t">打开 →</span>
   </a>
